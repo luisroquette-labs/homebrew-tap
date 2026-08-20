@@ -5,7 +5,7 @@ cask "notchagent" do
   url "https://github.com/luisroquette/notchagent/releases/download/v3.5.1/NotchAgent-3.5.1.dmg"
   name "NotchAgent"
   desc "Fuel gauge for Claude Code and Codex quotas in the MacBook notch"
-  homepage "https://github.com/luisroquette/notchagent"
+  homepage "https://notchagent.app"
 
   depends_on macos: :sonoma
 
