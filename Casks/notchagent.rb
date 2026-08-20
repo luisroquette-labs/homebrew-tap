@@ -1,8 +1,8 @@
 cask "notchagent" do
-  version "3.1.2"
-  sha256 "afc66a576d48b2c1a4bfeb9099d864158e673b9209b1e2db0436b0c709a234f4"
+  version "3.5.1"
+  sha256 "784064639255463502cef94331499a0e7530d98336d48613fc08f45cd9ee0a3b"
 
-  url "https://github.com/luisroquette/notchagent/releases/download/v3.1.2/NotchAgent-Desk-Beta1-3.1.2.dmg"
+  url "https://github.com/luisroquette/notchagent/releases/download/v3.5.1/NotchAgent-3.5.1.dmg"
   name "NotchAgent"
   desc "Fuel gauge for Claude Code and Codex quotas in the MacBook notch"
   homepage "https://github.com/luisroquette/notchagent"
