@@ -1,11 +1,13 @@
-cask "notchagent" do
-  version "3.5.4"
-  sha256 "a6d93cf488b9dfadfb26d6d0eaf0e44a8d6577a15e7f7e58eafb987036e87f3f"
+# frozen_string_literal: true
 
-  url "https://github.com/luisroquette/notchagent/releases/download/v3.5.4/NotchAgent-3.5.4.dmg"
+cask "notchagent" do
+  version "3.5.5"
+  sha256 "8d1249f0461f90b08431534fdc07d777be3ec8551be08b1529a0cd1a17e83d10"
+
+  url "https://github.com/luisroquette/notchagent/releases/download/v#{version}/NotchAgent-#{version}.dmg"
   name "NotchAgent"
   desc "Fuel gauge for Claude Code and Codex quotas in the MacBook notch"
-  homepage "https://notchagent.app"
+  homepage "https://notchagent.app/"
 
   depends_on macos: :sonoma
 
