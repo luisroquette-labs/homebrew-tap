@@ -2,7 +2,7 @@ require "ripper"
 
 def comment_locations(source)
   Ripper.lex(source).each_with_object([]) do |(position, type, value, _state), lines|
-    next unless type == :on_comment
+    next unless type == :on_comment || type == :on_embdoc_beg
     next if position == [1, 0] && value == "# frozen_string_literal: true\n"
 
     lines << position.first

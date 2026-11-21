@@ -10,6 +10,10 @@ class CommentLintTest < Minitest::Test
     assert_equal [2], comment_locations("puts 'ok'\n# old\n")
   end
 
+  def test_detects_block_comment
+    assert_equal [1], comment_locations("=begin\nold note\n=end\nputs :ok\n")
+  end
+
   def test_ignores_hash_inside_string
     assert_empty comment_locations("url = 'https://example.com/#fragment'\n")
   end
