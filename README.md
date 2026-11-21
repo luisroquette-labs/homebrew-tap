@@ -3,7 +3,7 @@
 Homebrew tap for my tools.
 
 ```bash
-brew install --cask --no-quarantine luisroquette-labs/tap/notchagent
+brew install --cask luisroquette-labs/tap/notchagent
 ```
 
 | Cask | Description |

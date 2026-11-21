@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "notchagent" do
-  version "3.5.5"
-  sha256 "8d1249f0461f90b08431534fdc07d777be3ec8551be08b1529a0cd1a17e83d10"
+  version "3.7.1"
+  sha256 "5476e781d5c33f5d03cd88cfae4c74eca40f632c1fbb99cc26770758556f59fa"
 
   url "https://github.com/luisroquette-labs/notchagent/releases/download/v#{version}/NotchAgent-#{version}.dmg"
   name "NotchAgent"
